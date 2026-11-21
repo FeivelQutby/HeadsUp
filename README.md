@@ -1,4 +1,4 @@
-# BeatGuess 🎤
+# HeadsUp 🎤
 
 Game tebak lagu ala "Heads Up!" buat dimainkan rame-rame.
 
@@ -10,15 +10,15 @@ Game tebak lagu ala "Heads Up!" buat dimainkan rame-rame.
 5. Dapet sebanyak mungkin dalam 60 detik!
 
 ## Cara Buka di Xcode
-1. Buka `BeatGuess.xcodeproj`
+1. Buka `HeadsUp.xcodeproj`
 2. Pilih target iPhone / simulator
 3. Ganti `PRODUCT_BUNDLE_IDENTIFIER` di Build Settings jadi bundle ID kamu sendiri
 4. Tekan ▶ Run
 
 ## Struktur File
 ```
-BeatGuess/
-├── BeatGuessApp.swift      — Entry point @main
+HeadsUp/
+├── HeadsUp.swift      — Entry point @main
 ├── ContentView.swift       — Root navigation antar screen
 ├── Models.swift            — Song struct + data semua kategori
 ├── GameViewModel.swift     — Game logic, timer, state
